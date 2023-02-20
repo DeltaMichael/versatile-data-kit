@@ -8,7 +8,7 @@ import { TIE_SWAGGER_DOC_LOCATION, UrlUtil } from './url.util';
 const TEST_VALUE_NO_FORWARD_SLASH = 'https://some_value';
 
 const TEST_VALUE_WITH_FORWARD_SLASH = 'https://some_value/';
-
+// woohoo
 describe('UrlUtil', () => {
     it('normalize Endpoint with Empty input', () => {
         expect(UrlUtil.normalizeEndpoint(null))
