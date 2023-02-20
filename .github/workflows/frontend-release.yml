@@ -5,10 +5,10 @@ on:
     branches: 
       - main
     paths:
-      - projects/frontend/data-pipelines/**
-      - projects/frontend/shared-components/**
-      - !projects/frontend/shared-components/gui/package.json
-      - !projects/frontend/shared-components/gui/projects/shared/package.json
+      - 'projects/frontend/data-pipelines/**'
+      - 'projects/frontend/shared-components/**'
+      - '!projects/frontend/shared-components/gui/package.json'
+      - '!projects/frontend/shared-components/gui/projects/shared/package.json'
 
 jobs:
   build-test-shared:
