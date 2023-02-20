@@ -45,6 +45,7 @@ jobs:
     - name: Bump Patch Version
       working-directory: ./projects/frontend/shared-components/gui
       run: |
+        git pull origin main --rebase
         npm version patch
         cd projects/shared
         npm version patch
