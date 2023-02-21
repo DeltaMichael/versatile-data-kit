@@ -14,7 +14,7 @@ const TEST_VALUE_WITH_FORWARD_SLASH = 'https://some_value/';
 describe('UrlUtil', () => {
     it('normalize Endpoint with Empty input', () => {
         expect(UrlUtil.normalizeEndpoint(null))
-            .toEqual('');
+            .toEqual('sadf');
     });
 
     it('normalize Endpoint with no Forward Slash at the end', () => {
